@@ -1,0 +1,41 @@
+.grid {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 1em;
+    width: 50%;
+}
+
+header,
+aside,
+article,
+footer {
+    background: #eaeaea;
+    padding: 1em;
+    font-size: 24px;
+}
+
+header, footer {
+    grid-column: 1/4;
+    font-size: 24px;
+}
+
+/* Demo Specific Styles */
+body {
+    margin: 5% auto;
+}
+
+.grid > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.model2{
+    font-size: 48px;
+    horiz-align: left;
+
+}
+.model3{
+font-size: 48px;
+    horiz-align: right ;
+}
