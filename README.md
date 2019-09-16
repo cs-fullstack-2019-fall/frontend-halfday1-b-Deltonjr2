@@ -1,3 +1,8 @@
+### GRADED 8/24: See comments below and ask for clarification as needed.
+* The displayed game resembles some aspects of the examples, however in your CSS you are styling  the play area using CSS FlexBox *not* Grid. We did not cover FlexBox in class. 
+* Your HTML is using inline 'onclick' handlers as opposed to addeventListener() and are pointing to JavaScript function 'myfunction' which does not exist in your JavaScript.
+* Your JavaScript is based totally on jQuery, including jQuery features we didn't cover in class, and reference IDs of elements that do not appear in your HTML (#counter, #update). This suggests that some of the code may have come from a similar program(s) found online. Referring to other's code is fine, as long as you understand their approach and then code up your own version that you fully understand. However, please refrain from just copying in code directly from external sources. The more code you personally write, the better you get at it. Copying in existing code doesn't teach you anything, even if it happens to work, so resist the urge to do so.
+
 # frontend-halfDay1_b
 
 ### Button Clicking Game
